@@ -1,0 +1,32 @@
+body {
+    font-family: "Cabin";
+}
+
+h1, h2, h3 {
+    font-family: "Lora";
+}
+
+h1 {
+    color: #000000
+}
+
+h2 {
+    color: #050403;
+}
+
+
+footer {
+    background-image: linear-gradient(#634a4a00, rgb(247, 3, 3));
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #dd3737, #c53030);
+    color: white;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
