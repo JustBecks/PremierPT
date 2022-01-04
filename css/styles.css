@@ -30,3 +30,11 @@ footer {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
+.navbar {
+    background-color: #eecc09;
+}
+
+.jumbotron {
+    margin: 0;
+}
