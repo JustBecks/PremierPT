@@ -7,13 +7,12 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #f52607;
+    color: #df2306;
 }
 
 h2 {
     color: #020100;
 }
-
 
 footer {
     background-image: linear-gradient(#dfd3d300, rgb(247, 3, 3));
@@ -22,8 +21,8 @@ footer {
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #beb8b8, #c53030);
-    color: white;
+    background-color: rgb(151, 149, 149);
+    margin: 0;
 }
 .row-content {
     padding: 50px 0;
@@ -33,10 +32,6 @@ footer {
 
 .navbar {
     background-color: #070706;
-}
-
-.jumbotron {
-    margin: 0;
 }
 
 .carousel-caption {
