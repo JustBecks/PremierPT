@@ -21,7 +21,7 @@ footer {
 
 .jumbotron {
     padding: 30px;
-    background-color: rgb(151, 149, 149);
+    background-color:white;
     margin: 0;
 }
 .row-content {
@@ -31,7 +31,7 @@ footer {
 }
 
 .navbar {
-    background-color: #070706;
+    background-color: rgb(211, 16, 16)
 }
 
 .carousel-caption {
@@ -46,3 +46,4 @@ footer {
     border: solid #f12105;
 
 }
+
