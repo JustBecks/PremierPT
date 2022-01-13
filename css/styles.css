@@ -14,9 +14,10 @@ h2 {
     color: #020100;
 }
 
+
 footer {
-    background-image: linear-gradient(#dfd3d300, rgb(247, 3, 3));
-    padding: 20px 0;
+    background-color:  rgb(211, 16, 16);
+    padding: 10px;
 }
 
 .jumbotron {
@@ -31,7 +32,7 @@ footer {
 }
 
 .navbar {
-    background-color: rgb(211, 16, 16)
+    background-color: rgb(211, 16, 16);
 }
 
 .carousel-caption {
@@ -55,4 +56,18 @@ footer {
 .fa-twitter {
     color: black;
     background-color: grey
+}
+
+.contact {
+    color: white;
+    padding: 8px;
+    margin: 25px;
+    font-family: Avenir;
+}
+
+h4 {
+    color: white;
+    padding: 25px;
+    margin: 10px
+   
 }
