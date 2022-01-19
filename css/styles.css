@@ -12,6 +12,7 @@ h1 {
 
 h2 {
     color: #020100;
+    font-family: Avenir;
 }
 
 h4 {
@@ -82,5 +83,9 @@ footer {
     padding: 8px;
     margin: 25px;
     font-family: Avenir;
+}
+
+.clinic {
+    color: white
 }
 
