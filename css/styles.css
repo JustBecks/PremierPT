@@ -1,9 +1,10 @@
 body {
-    font-family: "Cabin";
+    font-family: "Open Sans", sans-serif;
 }
 
+
 h1, h2, h3 {
-    font-family: "Lora";
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -12,7 +13,6 @@ h1 {
 
 h2 {
     color: #020100;
-    font-family: Avenir;
 }
 
 h4 {
