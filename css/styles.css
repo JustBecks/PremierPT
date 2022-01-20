@@ -63,10 +63,6 @@ footer {
     overflow: hidden;
     height: 50vh;
 }
-.card-group {
-    border: solid #f12105;
-
-}
 
 .fa-facebook {
     color: black;
@@ -88,4 +84,3 @@ footer {
 .clinic {
     color: white
 }
-
