@@ -19,13 +19,13 @@
 </head>
 
 <body>
-<!-- Jumbotron Header -->
-<header class="jumbotron jumbotron-fluid">
-  <div class="container-fluid">
-      <div class="row justify-content-center">
 
+  <!-- Jumbotron Header -->
+ <header class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <div class="row justify-content-center">
         <!-- Logo -->
-          <div class="col-sm-6 col-md-6 align-self-center">
+          <div class="col-sm-8 col-md-8 col-lg-5">
             <a href="index.html">
               <img src="img/PremierLogo.jpg"  class="img-fluid" alt="Premier Physical Therapy Logo">
             </a>
@@ -35,36 +35,56 @@
 </header>
 
 <!--Sticky Top NavBar-->
-<nav class="navbar navbar-expand navbar-light sticky-top">
+
+<nav class="navbar navbar-expand-md navbar-light sticky-top">
   <div class="container-fluid">
-      <div class="row" class="justify-content-center"></div>
+      <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto mr-md-3">
+                    <li class="nav-item active">
+                      <a class="nav-link mx-2" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="patients.html">Patients</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Locations
+                        </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="redmond.html">Redmond</a>
+                          <a class="dropdown-item" href="kirkland.html">Kirkland</a>
+                          <a class="dropdown-item" href="millcreek.html">Mill Creek</a>
+                        <li class="dropdown nav-item d-sm-flex align-items-center"></li>
+                  </div>
+             </li>
+       </ul>
+   
+ <!-- Social Links -->
+   <div class="social-link ms-auto">
+      <ul class="navbar-brand">
+        <a class="btn btn-social-icon btn-facebook me-2" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+      </ul>
+  </div>
+</nav>
+</div>
 
-        <!-- Navbar list-->
-         <div class="navbar-brand" id="premierNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html"></i>Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="redmond.html">Redmond</a></li>
-                <li class="nav-item"><a class="nav-link" href="kirkland.html"></i>Kirkland</a></li>
-                <li class="nav-item"><a class="nav-link" href="millcreek.html"></i>Mill Creek</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html"></i>Contact Us</a></li>
-            </ul>
-          </div>
-      
-             <!-- Social Links -->
-          <div class="row">
-              <ul class="navbar-brand">
-                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-              </ul>
-          </div>
-      </div>
-      </nav>
-
-<div class ="container">
+     <!-- About Section -->
+<div class ="container-fluid">
     <div class="row">
-        <div class="col-sm">
+        <div class="col">
             <br />
-    <h2>Kirkland</h2>
+    <h2 class="text-center fw-bold">Kirkland</h2>
+    <hr>
             <p>Premier Physical Therapy at Totem Lake is conveniently located in the Evergreen Professional Plaza next to
                  the Evergreen Hospital Medical Center. Our aim is to provide top quality care to assist you in a fast 
                  and efficient recovery of your existing injury. We have a strong commitment to our clients and provide 
@@ -78,125 +98,113 @@
 
      <div class="row">
        <div class="col-med-4 col-md">
-            <h3>Featured Services</h3>
+            <h3 class="text-center">Featured Services</h3>
             <br />
        </div>
      </div>
 
-<!--Featured Services Cards -->
-<div class="row">
-<div class="col">
-       <div class="card-group">
-           <!-- Manual PT Card -->
-        <div class="card">
-          <img class="card-img-top" src="img/manual-therapy-shoulder.jpg" alt="Manual Therapy">
-          <div class="card-body">
-            <h5 class="card-title">Manual Therapy</h5>
-            <p class="card-text">At Premier Physical Therapy our therapists have a strong hold on manual therapy. In conjunction with a home and gym exercise program, 
-                                 manual therapy is an integral part of your rehabilitation. Manual therapy consists of, but is not limited to, joint mobilization, 
-                                 neural mobilization, soft tissue mobilization and manual resistive exercises. Our therapists are knowledgeable in a variety of 
-                                 techniques and will be used appropriately to fit your specific needs.
-          </div>
-        </div>
-        <!-- Exercise PT Card -->
-        <div class="card">
-          <img class="card-img-top" src="img/tensor-band-squats.jpg" alt="Lunge">
-          <div class="card-body">
-            <h5 class="card-title">Exercise Therapy</h5>
-            <p class="card-text">Physical therapy involves the performance of targeted exercises to heal painful or injured areas of the body. Treatment typically
-                                involved a combination of specific exercises, targeted stretching and weight resistance. Our therapists will design an individualized course 
-                                of treatment for each patient based on a physical evaluation as well as input from your referring physician and your own personal goals 
-                                for treatment. It is important to note that performing your home exercises independently will increase the recovery rate and success of 
-                                your rehabilitation.
-        </div>
-        </div>
-        <!-- Orthotics Card -->
-        <div class="card">
-            <img class="card-img-top" src="img/orthotics.jpg" alt="Pool Therapy">
-            <div class="card-body">
-              <h5 class="card-title">Orthotics</h5>
-              <p class="card-text">Premier Physical Therapy offers the service of custom orthotics. Orthotics can help by controlling faulty mechanics of the
-                   hip, knee and foot/ankle complex. Abnormal joint mechanics can lead to increased joint stress and possible injury. Orthotics can help with 
-                   injuries such as shin splints, plantar fasciitis and patella femoral dysfunction as related to abnormal biomechanics. In many cases a 
-                   custom orthotic may not be necessary and an over the counter orthotic will be sufficient. Rest assured that your therapist will help 
-                   guide you to the best option for your specific needs.
-          </div>
-          </div>
-      </div>
-</div>
-</div>
-<br />
+ <!-- Services -->
+ <div class="container">
+  <div class="row d-flex justify-content-center">
+       <div class="col-md-6 col-lg-4 col-sm-10 mx-5">
+         <a href="services.html">
+           <img class="img-thumbnail rounded-pill my-3"  alt="100x100" src="img/tensor-band-squats.jpg">
+         </a>
+           <h2 class="text-center">Exercise Therapy</h2>
+       </div>
+ 
+       <div class="col-md-6 col-lg-4 col-sm-10 mx-5">
+         <a href="services.html">
+         <img class="img-thumbnail rounded-pill my-3"  alt="100x100" class="" src="img/manual-therapy-shoulder.jpg">
+       </a>
+         <h2 class="text-center">Manual Therapy</h2>
+     </div>
+ </div>
+ 
+ <div class="row d-flex justify-content-center">
+       <div class="col-md-6 col-lg-4 col-sm-10 mx-5">
+         <a href="services.html">
+         <img class="img-thumbnail rounded-pill my-3"  alt="100x100" class="" src="img/orthotics.jpg">
+       </a>
+         <h2 class="text-center">Orthotics</h2>
+     </div>
+   </div>
+ </div>
+
+<!-- Therapist Cards -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+        <br />
+        <h2 class="text-center">Meet Our Therapists</h2>
+    </div>
+  </div>
+   <br />
 
 <div class="row">
-    <div class="col-sm">
-        <br />
-<h2>Meet Our Therapists</h2>
-        </div>
-</div>
-<br />
-<!-- Therapist Cards -->
-<div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 row-cols-md-3">
-    <div class="col mb-3">
-      <div class="card">
-        <img src="img/therapist/RickRieger.jpg" class="card-img-top" alt="Rick Rieger, PT">
-        <div class="card-body">
-          <h5 class="card-title">Rick Rieger</h5>
-          <h6 class="card-title">PT</h6>
-          <p class="card-text">Rick graduated from the University of Washington with a Bachelor of Science degree in physical therapy
-               in 1995. Since then, he has dedicated his practice to outpatient orthopedics with emphasis on rehabilitation and 
-               prevention of athletic injuries.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="img/therapist/ChristiLee.jpg" class="card-img-top" alt="Christi Lee, PT">
-        <div class="card-body">
-          <h5 class="card-title">Christi Lee</h5>
-          <h6 class="card-title">PT</h6>
-          <p class="card-text">Christi is a doctoral graduate of the University of Montana Physical Therapy Program. Her clinical
-               focus is on the rehabilitation and prevention of overuse injuries in athletic populations with a special interest 
-               in the treatment of post-concussion syndrome.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="img/therapist/KenJones.jpg" class="card-img-top" alt="Ken Jones, PT, MPT">
-        <div class="card-body">
-          <h5 class="card-title">Ken Jones</h5>
-          <h6 class="card-title">PT, MPT</h6>
-          <p class="card-text">Ken Jones has been a physical therapist since 2003, treating musculoskeletal conditions in outpatient 
-              orthopedic clinics.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-          <img src="img/therapist/ErinKonkle.jpg" class="card-img-top" alt="Erin Konkle, PT, DPT">
+  <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+    <div class="card h-100">
+          <img src="img/therapist/RickRieger.jpg" class="card-img-top" alt="Rick Rieger, PT">
           <div class="card-body">
-            <h5 class="card-title">Erin Konkle</h5>
-            <h6 class="card-title">PT, DPT</h6>
-            <p class="card-text">Erin graduated from Western University of Health Sciences with her Doctor of Physical degree and
-                 is a proud Washington State Cougar from her undergraduate days. Erin’s main treatment focus has been in 
-                 outpatient orthopedics treating a variety of patients and diagnoses.
-            </p>
+            <h5 class="card-title">Rick Rieger</h5>
+            <h6 class="card-title">PT</h6>
+            <p class="card-text">Rick graduated from the University of Washington with a Bachelor of Science degree in physical therapy
+                in 1995. Since then, he has dedicated his practice to outpatient orthopedics with emphasis on rehabilitation and 
+                prevention of athletic injuries.</p>
           </div>
         </div>
       </div>
-    
-  </div>
-  <div class="row">
-    <div class="col-sm">
-        <br />
-<h2>Meet Our Support Staff</h2>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="img/therapist/ChristiLee.jpg" class="card-img-top" alt="Christi Lee, PT">
+          <div class="card-body">
+            <h5 class="card-title">Christi Lee</h5>
+            <h6 class="card-title">PT</h6>
+            <p class="card-text">Christi is a doctoral graduate of the University of Montana Physical Therapy Program. Her clinical
+                focus is on the rehabilitation and prevention of overuse injuries in athletic populations with a special interest 
+                in the treatment of post-concussion syndrome.</p>
+          </div>
         </div>
-</div>
-<br />
-<!-- Support Staff Cards -->
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-    <div class="col mb-3">
-      <div class="card">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="img/therapist/KenJones.jpg" class="card-img-top" alt="Ken Jones, PT, MPT">
+          <div class="card-body">
+            <h5 class="card-title">Ken Jones</h5>
+            <h6 class="card-title">PT, MPT</h6>
+            <p class="card-text">Ken Jones has been a physical therapist since 2003, treating musculoskeletal conditions in outpatient 
+                orthopedic clinics.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+            <img src="img/therapist/ErinKonkle.jpg" class="card-img-top" alt="Erin Konkle, PT, DPT">
+            <div class="card-body">
+              <h5 class="card-title">Erin Konkle</h5>
+              <h6 class="card-title">PT, DPT</h6>
+              <p class="card-text">Erin graduated from Western University of Health Sciences with her Doctor of Physical degree and
+                  is a proud Washington State Cougar from her undergraduate days. Erin’s main treatment focus has been in 
+                  outpatient orthopedics treating a variety of patients and diagnoses.
+              </p>
+            </div>
+          </div>
+        </div>
+     </div>
+    
+
+      <!-- Support Staff Cards -->
+     <div class="row">
+        <div class="col">
+          <br />
+          <h2>Meet Our Support Staff</h2>
+        </div>
+    </div>
+  <br />
+
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
         <img src="img/therapist/Lanissa.jpg" class="card-img-top" alt="Lanissa">
         <div class="card-body">
           <h5 class="card-title">Lanissa</h5>
@@ -208,8 +216,8 @@
         </div>
       </div>
     </div>
-    <div class="col mb-4">
-      <div class="card">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
         <img src="img/therapist/AnnaGorbenko.jpg" class="card-img-top" alt="Anna Gorbenko">
         <div class="card-body">
           <h5 class="card-title">Anna Gorbenko</h5>
@@ -220,8 +228,8 @@
         </div>
       </div>
     </div>
-    <div class="col mb-4">
-      <div class="card">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
         <img src="img/therapist/ConnieKhaw.jpg" class="card-img-top" alt="Connie Khauv">
         <div class="card-body">
           <h5 class="card-title">Connie Khauv</h5>
@@ -232,8 +240,8 @@
         </div>
       </div>
     </div>
-    <div class="col mb-4">
-        <div class="card">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
           <img src="img/therapist/ShalenaNorman.jpg" class="card-img-top" alt="Shalena Norman">
           <div class="card-body">
             <h5 class="card-title">Shalena Norman</h5>
@@ -244,40 +252,78 @@
           </div>
         </div>
       </div>
-</div>
+    </div>
+  </div>
 </div>
 
 
 <!-- Footer -->
 <footer class="site-footer">
-  <div class ="container">
+  <div class="container-fluid">
       <div class="row">
 
-      
-       <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="mb-2">Address</h4>
-          <address>
-              <strong>Mill Creek</strong>
-              <br />
-              <i class="fa fa-lg"></i>16030 Bothell-Everett-Hwy, Suite 200</i>
-              <br />
-              <i>Mill Creek, WA 98012</i>
-              <br />
-  </div>
+      <!--Redmond Contact -->
+    <div class="col-lg-4 col-md-4 col-sm-10 text-center">
+         <a href="redmond.html" class="clinic">
+          <h4>Redmond</h4>
+        </a>
+           <address>
+              <span class="contact">16261 Redmond Way #100<span>
+              <br>
+              <span class="contact">Redmond, WA 98052</span>
+  </address>
+          <a href="tel:14258813001" class="contact">Tel: 425.881.3001</a>
+          <br>
+          <a href="tel:14258813585" class="contact">Fax: 425.881.3585</a>
+          <br>
+          <br>
+          <span class="contact">Hours: Monday-Friday 6:30-6:00pm</span>
+          <br>
+          <span class="contact">Saturday 7:00-1:00pm</span>
+   </div>
+          
+              
   
-  <!-- Contact Info -->
-  <div class="col-lg-4 mb-5 mb-lg-0">
-      <h4 class="">Contact</h4>
-      <i class="fa fa-lg text-primary"></i>Tel: 425.745.4910<br />
-      <i class="fa fa-lg text-primary"></i>Fax: 425.338.5709<br />
-          <br />
-  </div>
-      
-  <div class="col-lg-4 mb-5 mb-lg-0">
-      <h4 class="mb-2">Hours</h4>
-          <span>Monday-Thursday 8:00-7:30pm</span></br>
-           <span>Friday 8:00-4:00pm</span> </br>
-           <span>Evenings by Appointment</span>
+   <!--Kirkland Contact -->
+   <div class="col-lg-4 col-md-4 col-sm-10 text-center">
+        <a href="kirkland.html" class="clinic">
+          <h4>Kirkland</h4>
+        </a>
+      <address>
+          <span class="contact">12911 120th Ave NE Suite F-120<span>
+          <br>
+          <span class="contact">Kirkland, WA 98034</span>
+      </address>
+          <a href="tel:14253052940" class="contact">Tel: 425.305.2940</a>
+          <br>
+          <a href="tel:+14257454910" class="contact">Fax: 425.305.2941</a>
+          <br>
+          <br>
+          <span class="contact">Hours: Monday-Thursday 7:00-6:00pm</span>
+          <br>
+          <span class="contact">Friday 7:00-4:00pm</span>
+       </div>
+
+      <!--Mill Creek Contact -->
+   <div class="col-lg-4 col-md-4 col-sm-10 text-center">
+        <a href="millcreek.html" class="clinic">
+          <h4>Mill Creek</h4>
+        </a>
+       <address>
+              <span class="contact">6030 Bothell-Everett-Hwy, Suite 200<span>
+              <br>
+              <span class="contact">Mill Creek, WA 98012</span>
+              </address>
+              <a href="tel:+14257454910" class="contact">Tel: 425.745.4910</a>
+              <br>
+              <a href="tel:+14257454910" class="contact">Fax: 425.338.5709</a>
+              <br>
+              <br>
+              <span class="contact">Hours: Monday-Thursday 8:00-7:30pm</span>
+              <br>
+              <span class="contact">Friday 8:00-4:00pm</span>
+              <br>
+              <span class="contact">Evenings by Appointment</span>
           </div>
       </div>
    </div>
@@ -287,13 +333,12 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<!--Carosel link + scripts -->
-<!-- Below link overrides stylesheet 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
--->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</body>
+
+  </body>
 </html>
