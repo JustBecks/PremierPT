@@ -1,2 +1,2 @@
 # PremierPT
-Remake of physical therapy website utilizing bootstrap 
+Redesign of a physical therapy website utilizing bootstrap.
