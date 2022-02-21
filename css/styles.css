@@ -28,15 +28,15 @@ h4 {
 
 footer {
     background-color:  rgb(211, 16, 16);
-    padding-bottom:1rem;
-    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     line-height: 1.5rem;
     position: absolute;
 }
 
 .jumbotron {
     padding: 3rem;
-    background-color:white;
+    background-color: white;
     margin: 0rem;
 }
 
@@ -83,16 +83,9 @@ footer {
 }
 
 .list-group-footer .list-group-item{
-    background-color:rgb(211, 16, 16);
+    background-color: rgb(211, 16, 16);
   
 }
-
-/*
-.list-unstyled {
-    background-color:rgb(211, 16, 16);
-    border: none;
-}
-*/
 
 .img-thumbnail{
    
@@ -123,21 +116,3 @@ footer {
     margin-left: 0px !important; 
     margin-right: 0px !important;
 }
-/* Bootstrap Break Points:
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
