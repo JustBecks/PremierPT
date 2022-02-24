@@ -25,15 +25,6 @@ h4 {
     font-variant: small-caps;
 }
 
-
-footer {
-    background-color:  rgb(211, 16, 16);
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    line-height: 1.5rem;
-    position: absolute;
-}
-
 .jumbotron {
     padding: 3rem;
     background-color: white;
@@ -77,14 +68,23 @@ footer {
 .clinic {
     color: white
 }
-
+/*
 .list-group-first .list-group-item {
     background-color: rgb(194, 191, 191)
+}
+*/
+.site-footer {
+    
+    background-color: rgb(211, 16, 16);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    line-height: 1rem;
+    position: absolute;
 }
 
 .list-group-footer .list-group-item{
     background-color: rgb(211, 16, 16);
-  
+   
 }
 
 .img-thumbnail{
